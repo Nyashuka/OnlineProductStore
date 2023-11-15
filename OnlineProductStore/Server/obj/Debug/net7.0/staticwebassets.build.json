@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7cTxT/QO6KsULAzL0vc95BcPLm19Sdvdtjb3KraImmo=",
+  "Hash": "8maQcnALWGD0L2MZrGEPeCux0THqi4aHVUKSvVlZRbo=",
   "Source": "OnlineProductStore.Server",
   "BasePath": "_content/OnlineProductStore.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "OnlineProductStore.Client",
       "GetPublishAssetsTargets": "ComputeFilesToPublish;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;_PublishingBlazorWasmProject=true",
+      "AdditionalPublishProperties": "BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;_PublishingBlazorWasmProject=true;Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "NoBuild;RuntimeIdentifier;WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],
@@ -114,6 +114,23 @@
       "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.7\\runtimes\\browser-wasm\\native\\dotnet.wasm"
     },
     {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Project",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.7\\runtimes\\browser-wasm\\native\\icudt.dat"
+    },
+    {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "OnlineProductStore.Client",
       "SourceType": "Project",
@@ -163,23 +180,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.7\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
-    },
-    {
-      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "OnlineProductStore.Client",
-      "SourceType": "Project",
-      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.7\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -7016,23 +7016,6 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "OnlineProductStore.Client",
-      "SourceType": "Project",
-      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
-    },
-    {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "OnlineProductStore.Client",
       "SourceType": "Project",
@@ -7133,6 +7116,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Project",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",

@@ -1,0 +1,57 @@
+﻿<ul class="list-unstyled">
+    @foreach (var product in products)
+    {
+        <li class="media my-3">
+            <div class="media-img-wrapper mr-2">
+                <a href="/product/@product.Id">
+                    <img class="media-img" src="@product.Image" alt="@product.Name"/>
+                </a>
+            </div>
+            <div class="media-body">
+                <a href="/product/@product.Id">
+                    <h4 class="mb-0">
+                        @product.Name
+                    </h4>
+                </a>
+                <p>
+                    @product.Description
+                </p>
+
+                @if(product.OriginalPrice > product.Price)
+                {
+                    <h6 class="text-muted" original-price>@product.OriginalPrice</h6>
+                }
+                <h5 class="price">
+                    $@product.Price
+                </h5>
+            </div>
+        </li>
+    }
+</ul>
+
+
+@code {
+    private List<Product> products = new List<Product>()
+    {
+        new Product()
+        {
+          Id = 0,
+          Name = "Помидори",
+          Description = "Дуже свіжі",
+          Price = 20,
+          OriginalPrice = 30,
+          Image = "https://m.dom-eda.com/uploads/images/catalog/item/c6ebcf64ba/e87b941b85_500.jpg",
+          Quantity = 10,
+        },
+        new Product()
+        {
+          Id = 1,
+          Name = "Огірочічки",
+          Description = "Смачно капець",
+          Price = 60,
+          OriginalPrice = 30,
+          Image = "https://www.fruit-market.com.ua/wp-content/uploads/2020/04/kornishon.jpg",
+          Quantity = 20,
+        },
+    };
+}
