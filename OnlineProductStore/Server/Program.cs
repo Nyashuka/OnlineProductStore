@@ -1,5 +1,3 @@
-using Microsoft.AspNetCore.ResponseCompression;
-
 namespace OnlineProductStore
 {
     public class Program

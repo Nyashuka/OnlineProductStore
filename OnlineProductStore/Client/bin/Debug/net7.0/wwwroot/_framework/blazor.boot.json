@@ -198,15 +198,15 @@
       "mscorlib.dll": "sha256-gEh2pbf9QBKUbbQNDp178pkm5vz7xXFGhpFgUcAhyTE=",
       "netstandard.dll": "sha256-IEYNogoWZgSKXlx0+Pn2bt3irEZ1nuCnjK9Bm+3OWYw=",
       "System.Private.CoreLib.dll": "sha256-XrgDwG5fUErLSziY3dAwA0PYLIirTlornT8Lb6U2DUs=",
-      "OnlineProductStore.Shared.dll": "sha256-ag4QtkO8VXST6gB9cwBfJHOMBBzMlY2TKBmJtBZ7WlY=",
-      "OnlineProductStore.Client.dll": "sha256-UfnQxwYUGMQxKnqPp6RzUBDQUWYGz+tY9+Ms1pM1O5k="
+      "OnlineProductStore.Shared.dll": "sha256-JYAIVtqLz+qLMwZDVwVzIUx23RmPE\/RfiLtN4zY1mz8=",
+      "OnlineProductStore.Client.dll": "sha256-3EWU6Ul\/bejl7zZPlzJmQOO7pf1FDICepETtIggsd50="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "OnlineProductStore.Shared.pdb": "sha256-xseutYwIehDzcgFxIelP05f8UvfmANcPqF\/Rqb6SWBU=",
-      "OnlineProductStore.Client.pdb": "sha256-t\/3KikqVCWM2yBxnC6zNG+321iBR58XhMdzVyfAHKYY="
+      "OnlineProductStore.Shared.pdb": "sha256-0XcUZCBAdMw\/SXdzb+GnLTKixmmXHfp\/H0KuVRaPw2o=",
+      "OnlineProductStore.Client.pdb": "sha256-HfsODZ61FYoYtFBVa68qfMkk9kFUY8NEEf09iyIgsKQ="
     },
     "runtime": {
       "dotnet.7.0.7.rvnarlj1lo.js": "sha256-JmMF+3r0RjsO0yYBfDP8Pq2ahxBSJHFu7mZNB9lqLsw=",
