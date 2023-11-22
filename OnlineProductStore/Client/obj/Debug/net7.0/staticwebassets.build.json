@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+U9iLHDZMxJwnYnk4ikL81q4g5UU3xG2+je7XSzZ4eY=",
+  "Hash": "ovl/AiK8mJxGrCh5EoNz7RFALn/bts9tNpDZ3MBxbxw=",
   "Source": "OnlineProductStore.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Nyashuka\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Nyashuka\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Nyashuka\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Nyashuka\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\MudBlazor.min.js"
+    },
     {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "OnlineProductStore.Client",
@@ -49,6 +83,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.7\\build\\net7.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\blazored.localstorage\\4.4.0\\lib\\net7.0\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\dotnet.7.0.7.rvnarlj1lo.js",
@@ -100,6 +151,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.7\\runtimes\\browser-wasm\\native\\dotnet.wasm"
+    },
+    {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\FluentValidation.dll",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/FluentValidation.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\fluentvalidation\\11.8.0\\lib\\net7.0\\FluentValidation.dll"
     },
     {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat",
@@ -184,7 +252,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.7\\lib\\net7.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.14\\lib\\net7.0\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\7.0.14\\lib\\net7.0\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -201,7 +286,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.7\\lib\\net7.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.14\\lib\\net7.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -269,7 +354,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.7\\lib\\net7.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.14\\lib\\net7.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -459,6 +544,57 @@
       "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0\\lib\\net7.0\\Microsoft.Extensions.FileSystemGlobbing.dll"
     },
     {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.extensions.http\\7.0.0\\lib\\net7.0\\Microsoft.Extensions.Http.dll"
+    },
+    {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.dll",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\7.0.5\\lib\\net7.0\\Microsoft.Extensions.Localization.Abstractions.dll"
+    },
+    {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.dll",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.extensions.localization\\7.0.5\\lib\\net7.0\\Microsoft.Extensions.Localization.dll"
+    },
+    {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
       "SourceId": "OnlineProductStore.Client",
       "SourceType": "Computed",
@@ -644,6 +780,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.7\\runtimes\\browser-wasm\\lib\\net7.0\\mscorlib.dll"
+    },
+    {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Nyashuka\\.nuget\\packages\\mudblazor\\6.11.0\\lib\\net7.0\\MudBlazor.dll"
     },
     {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\netstandard.dll",
@@ -3570,23 +3723,6 @@
       "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.Sockets.dll"
     },
     {
-      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\21xZ3Bnn.gz",
-      "SourceId": "OnlineProductStore.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
-    },
-    {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\2h+e6hIb.gz",
       "SourceId": "OnlineProductStore.Client",
       "SourceType": "Computed",
@@ -4641,6 +4777,23 @@
       "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\eZlcSc1t.gz",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll"
+    },
+    {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\fH3Ymnoz.gz",
       "SourceId": "OnlineProductStore.Client",
       "SourceType": "Computed",
@@ -4777,6 +4930,23 @@
       "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Globalization.Calendars.dll"
     },
     {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\GwwLvS7a.gz",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\gYmJ4oI3.gz",
       "SourceId": "OnlineProductStore.Client",
       "SourceType": "Computed",
@@ -4845,6 +5015,23 @@
       "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.FileSystem.Primitives.dll"
     },
     {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\hO6SLLi8.gz",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/FluentValidation.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\FluentValidation.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\FluentValidation.dll"
+    },
+    {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\Hp+qur0K.gz",
       "SourceId": "OnlineProductStore.Client",
       "SourceType": "Computed",
@@ -4911,23 +5098,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.Contracts.dll"
-    },
-    {
-      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\IYKtuobs.gz",
-      "SourceId": "OnlineProductStore.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\jb8r68A2.gz",
@@ -5151,6 +5321,57 @@
       "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.ComponentModel.EventBasedAsync.dll"
     },
     {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\ktxTNuEC.gz",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.dll"
+    },
+    {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\Kwtidf8l.gz",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\KxRk+z7B.gz",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\MudBlazor.dll"
+    },
+    {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\KyC+08gG.gz",
       "SourceId": "OnlineProductStore.Client",
       "SourceType": "Computed",
@@ -5285,6 +5506,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Text.RegularExpressions.dll"
+    },
+    {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\LhmxCch9.gz",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\LQA0cotb.gz",
@@ -5457,6 +5695,23 @@
       "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.Overlapped.dll"
     },
     {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\NcZUSix+.gz",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.dll"
+    },
+    {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\nocOwlyd.gz",
       "SourceId": "OnlineProductStore.Client",
       "SourceType": "Computed",
@@ -5559,6 +5814,23 @@
       "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Drawing.dll"
     },
     {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\oyE7dVZ+.gz",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
+    },
+    {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\oZ3ym2UA.gz",
       "SourceId": "OnlineProductStore.Client",
       "SourceType": "Computed",
@@ -5574,23 +5846,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.Extensions.dll"
-    },
-    {
-      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\p76h1nl9.gz",
-      "SourceId": "OnlineProductStore.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\PHkQW4Ab.gz",
@@ -5744,6 +5999,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.Mail.dll"
+    },
+    {
+      "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\PyUPUik7.gz",
+      "SourceId": "OnlineProductStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll"
     },
     {
       "Identity": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\obj\\Debug\\net7.0\\build-gz\\q+4kIiuW.gz",

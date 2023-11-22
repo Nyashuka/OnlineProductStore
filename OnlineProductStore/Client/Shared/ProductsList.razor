@@ -1,33 +1,68 @@
-﻿<ul class="list-unstyled">
-    @foreach (var product in products)
-    {
-        <li class="media my-3">
-            <div class="media-img-wrapper mr-2">
-                <a href="/product/@product.Id">
-                    <img class="media-img" src="@product.Image" alt="@product.Name"/>
-                </a>
-            </div>
-            <div class="media-body">
-                <a href="/product/@product.Id">
-                    <h4 class="mb-0">
-                        @product.Name
-                    </h4>
-                </a>
-                <p>
-                    @product.Description
-                </p>
+﻿@if (products != null)
+{
+    <div class="row">
+        <div class="row sticky-top mb-1">
+            <div class="col-md-8 mt-1"><h3 class="text-muted" style="font-family:'Javanese Text'">Products</h3></div>
+        </div>
+        <hr />
+        @foreach (var product in products)
+        {
+            <div class="col-md-3">
+                <div class="card border-1 m-2 mb-2">
+                    <a href="productDetails/@product.Id" style="text-decoration:none;">
+                        <div class="card-header text-center">
+                            <img class="card-img-top" src="@product.Image" style="width:200px; height:150px" />
+                            @if (DateTime.Now < product.UploadedTime.AddDays(30))
+                            {
+                                <span class="badge bg-info position-absolute top-0 start-100 translate-middle badge rounded-pill">New</span>
+                            }
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                <span class="text-primary">@product.Name </span>&nbsp; &nbsp;
+                                <br />
+                                <span class="text-secondary text-muted fs-6">@product.Description</span><br>
+                                @if (product.Price != 0 && product.Price < product.OriginalPrice)
+                                {
+                                    <span class="text-danger text-decoration-line-through" style="font-size:16px;"><i>$@product.OriginalPrice</i></span>
+                                    <span>&nbsp; &nbsp;</span>
+                                    <span class="badge bg-primary badge rounded-end bg-danger">Reduced</span>
+                                    <br />
+                                    <span class="text-primary text-center" style="font-size:16px;"><i>$@product.Price</i></span>
+                                }
+                                else
+                                {
+                                    <span class="text-danger" style="font-size:16px;"><i>$@product.OriginalPrice</i></span>
+                                }
 
-                @if(product.OriginalPrice > product.Price)
-                {
-                    <h6 class="text-muted" original-price>@product.OriginalPrice</h6>
-                }
-                <h5 class="price">
-                    $@product.Price
-                </h5>
+                            </p>
+                        </div>
+                    </a>
+                    <div class="card-footer bg-white">
+                        <button class="btn btn-outline-danger btn-sm">
+                            <i class="oi oi-cart fs-5"></i>
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
             </div>
-        </li>
-    }
-</ul>
+        }
+    </div>
+}
+else
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-3 mb-5">
+                <div class="d-flex justify-content-center mt-5">
+                    <div class="spinner-border text-danger" role="status" style="width: 5rem; height: 5rem;">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
 
 
 @code {
@@ -46,6 +81,46 @@
         new Product()
         {
           Id = 1,
+          Name = "Огірочічки",
+          Description = "Смачно капець",
+          Price = 60,
+          OriginalPrice = 30,
+          Image = "https://www.fruit-market.com.ua/wp-content/uploads/2020/04/kornishon.jpg",
+          Quantity = 20,
+        },
+        new Product()
+        {
+          Id = 2,
+          Name = "Помидори",
+          Description = "Дуже свіжі",
+          Price = 20,
+          OriginalPrice = 30,
+          Image = "https://m.dom-eda.com/uploads/images/catalog/item/c6ebcf64ba/e87b941b85_500.jpg",
+          Quantity = 10,
+        },
+        new Product()
+        {
+          Id = 3,
+          Name = "Огірочічки",
+          Description = "Смачно капець",
+          Price = 60,
+          OriginalPrice = 30,
+          Image = "https://www.fruit-market.com.ua/wp-content/uploads/2020/04/kornishon.jpg",
+          Quantity = 20,
+        },
+         new Product()
+        {
+          Id = 4,
+          Name = "Помидори",
+          Description = "Дуже свіжі",
+          Price = 20,
+          OriginalPrice = 30,
+          Image = "https://m.dom-eda.com/uploads/images/catalog/item/c6ebcf64ba/e87b941b85_500.jpg",
+          Quantity = 10,
+        },
+        new Product()
+        {
+          Id = 5,
           Name = "Огірочічки",
           Description = "Смачно капець",
           Price = 60,

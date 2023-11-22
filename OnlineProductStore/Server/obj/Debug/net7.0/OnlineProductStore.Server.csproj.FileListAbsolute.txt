@@ -96,3 +96,15 @@ E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\bin\Debug\ne
 E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
+E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\bin\Debug\net7.0\MudBlazor.dll
+E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\bin\Debug\net7.0\Blazored.LocalStorage.dll
+E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\bin\Debug\net7.0\FluentValidation.dll
+E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Authorization.dll
+E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\bin\Debug\net7.0\Microsoft.OpenApi.dll
+E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\obj\Debug\net7.0\OnlineProductStore.Server.MvcApplicationPartsAssemblyInfo.cs
