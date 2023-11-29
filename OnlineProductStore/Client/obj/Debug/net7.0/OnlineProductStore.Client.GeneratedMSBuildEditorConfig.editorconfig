@@ -1,4 +1,8 @@
 is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net7.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -9,53 +13,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = OnlineProductStore.Client
 build_property.RootNamespace = OnlineProductStore.Client
-build_property.ProjectDir = E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Client\
+build_property.ProjectDir = C:\UniversityLabs\4course\MAPZ\OnlineProductStore\OnlineProductStore\Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Client
+build_property.MSBuildProjectDirectory = C:\UniversityLabs\4course\MAPZ\OnlineProductStore\OnlineProductStore\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/App.razor]
+[C:/UniversityLabs/4course/MAPZ/OnlineProductStore/OnlineProductStore/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Pages/AddProduct.razor]
+[C:/UniversityLabs/4course/MAPZ/OnlineProductStore/OnlineProductStore/Client/Pages/AddProduct.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUHJvZHVjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Pages/Counter.razor]
+[C:/UniversityLabs/4course/MAPZ/OnlineProductStore/OnlineProductStore/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Pages/Index.razor]
+[C:/UniversityLabs/4course/MAPZ/OnlineProductStore/OnlineProductStore/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Pages/RegistrationWindow.razor]
+[C:/UniversityLabs/4course/MAPZ/OnlineProductStore/OnlineProductStore/Client/Pages/RegistrationWindow.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cmF0aW9uV2luZG93LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Shared/Header.razor]
+[C:/UniversityLabs/4course/MAPZ/OnlineProductStore/OnlineProductStore/Client/Shared/Header.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlYWRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Shared/ProductsList.razor]
+[C:/UniversityLabs/4course/MAPZ/OnlineProductStore/OnlineProductStore/Client/Shared/ProductsList.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFByb2R1Y3RzTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Shared/SurveyPrompt.razor]
+[C:/UniversityLabs/4course/MAPZ/OnlineProductStore/OnlineProductStore/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/_Imports.razor]
+[C:/UniversityLabs/4course/MAPZ/OnlineProductStore/OnlineProductStore/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Shared/MainLayout.razor]
+[C:/UniversityLabs/4course/MAPZ/OnlineProductStore/OnlineProductStore/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-jh2xugat1c
 
-[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Shared/NavMenu.razor]
+[C:/UniversityLabs/4course/MAPZ/OnlineProductStore/OnlineProductStore/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-q5n76nqyv9

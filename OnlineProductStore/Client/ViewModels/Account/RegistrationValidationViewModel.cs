@@ -18,9 +18,9 @@ namespace OnlineProductStore.Client.ViewModels.Account
             RuleFor(x => x.Password).NotEmpty().WithMessage("Your password cannot be empty")
                     .MinimumLength(6).WithMessage("Your password length must be at least 6.")
                     .MaximumLength(26).WithMessage("Your password length must not exceed 26.")
-                    .Matches(@"[A-Z]+").WithMessage("Your password must contain at least one uppercase letter.")
+                    /*.Matches(@"[A-Z]+").WithMessage("Your password must contain at least one uppercase letter.")
                     .Matches(@"[a-z]+").WithMessage("Your password must contain at least one lowercase letter.")
-                    .Matches(@"[0-9]+").WithMessage("Your password must contain at least one number.");
+                    .Matches(@"[0-9]+").WithMessage("Your password must contain at least one number.")*/;
             RuleFor(x => x.ConfirmPassword).Equal(_ => _.Password).WithMessage("'Confirm Password' must be equal 'Password'");
 
             _httpClient = httpClient;
@@ -39,7 +39,7 @@ namespace OnlineProductStore.Client.ViewModels.Account
         {
             try
             {
-                string url = $"http://localhost:5187/api/User/unique-user-email?email={email}";
+                string url = $"/api/User/unique-user-email?email={email}";
                 var response = await _httpClient.GetAsync(url);
                 response.EnsureSuccessStatusCode();
 

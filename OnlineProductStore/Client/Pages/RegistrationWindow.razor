@@ -79,7 +79,7 @@
             var jsonPayload = JsonSerializer.Serialize(registrationModel);
             var requestContent = new StringContent(jsonPayload, Encoding.UTF8, "application/json");
             var httpClient = _httpClientFactory.CreateClient("Dot7Api");
-            var response = await httpClient.PostAsync("api/user/register", requestContent);
+            var response = await httpClient.PostAsync("/api/user/register", requestContent);
 
             if (response.StatusCode == HttpStatusCode.BadRequest)
             {

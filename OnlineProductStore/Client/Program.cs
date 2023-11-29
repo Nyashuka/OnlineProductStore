@@ -18,7 +18,7 @@ namespace OnlineProductStore.Client
             //builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
             builder.Services.AddHttpClient("Dot7Api", options =>
             {
-                options.BaseAddress = new Uri("https://localhost:5187/");
+                options.BaseAddress = new Uri("https://localhost:8081/");
             }).AddHttpMessageHandler<CustomHttpHandler>();
 
             builder.Services.AddMudServices();

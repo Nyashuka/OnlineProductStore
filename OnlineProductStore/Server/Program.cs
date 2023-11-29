@@ -37,7 +37,7 @@ namespace OnlineProductStore
                 options.AddPolicy(name: "BlazorCors",
                     policy =>
                     {
-                        policy.WithOrigins("http://localhost:5187")
+                        policy.WithOrigins("http://localhost:8081")
                         .AllowAnyHeader()
                         .AllowAnyMethod();
                     });
@@ -79,7 +79,7 @@ namespace OnlineProductStore
             }
 
             //
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseCors("BlazorCors");
             app.UseAuthorization();
             //
