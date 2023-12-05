@@ -1,9 +1,9 @@
 {
   "entryAssembly": "OnlineProductStore.Client",
   "resources": {
-    "hash": "sha256-Y8p50x/3ELtjIdwMpAV5SIHN4x1rSjBfdGIRnGt1f5o=",
+    "hash": "sha256-iKXCcbhdxWhcUbgO12TF6jT2bh+MVjz79Qh1Y5rViF0=",
     "runtime": {
-      "dotnet.7.0.14.mukbvj9l8v.js": "sha256-YWGUknGRzP/fgO6YjvCJKPVQNZAPEd6ll+rHfQEIW+I=",
+      "dotnet.7.0.14.qbf2s8qg1q.js": "sha256-YWGUknGRzP/fgO6YjvCJKPVQNZAPEd6ll+rHfQEIW+I=",
       "dotnet.timezones.blat": "sha256-t5xviiOQTfAsF0UDhmcyalKiaehUmf/sqJl97tmPM0M=",
       "dotnet.wasm": "sha256-Oyo/i3KkRvFfEKDQqn9DjK1HWx19Z6eCVCNsUFQPSJU=",
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -209,12 +209,12 @@
       "mscorlib.dll": "sha256-YcsJInaT/kw3Vrm+SESegPxvT/Lr9RE6rE/KnxWIIc0=",
       "netstandard.dll": "sha256-TztlSRjADgiEABbiAMdWZpHrUVd8wnRtQRAvlwmRP/4=",
       "System.Private.CoreLib.dll": "sha256-BAhrZ8Zg3cJKQipxdzqQo+9jtPkOkRx1ou3oIhDohtk=",
-      "OnlineProductStore.Shared.dll": "sha256-wFzZrqSk4Q0O9sSSBZe4yiWkzusRBZBzIES4vz8dH+c=",
-      "OnlineProductStore.Client.dll": "sha256-+AaJOXzB4v1XLTdROeJT5WK/6Jv60hpevbSkA865ySg="
+      "OnlineProductStore.Shared.dll": "sha256-sPvDTptbFlCnBkkt6bhDsIU3M4nnDMQMo/n9O17/+yE=",
+      "OnlineProductStore.Client.dll": "sha256-3i/mRKU2T7AcnhiSfw019cwagoOlbnkSGeRtazUYNxM="
     },
     "pdb": {
-      "OnlineProductStore.Shared.pdb": "sha256-cNhIVBUXVFisZ0JKgWRJb6olcDWkzgi1Yh1tvxwtYLY=",
-      "OnlineProductStore.Client.pdb": "sha256-zp9SvJL3J7Gvokm15qME2iPf2yaHn/ctS9xzdEWwlU4="
+      "OnlineProductStore.Shared.pdb": "sha256-UZg4Rkuo+IspRuBZIa9YNseMPCtSiKP0XVkHW4YqGqw=",
+      "OnlineProductStore.Client.pdb": "sha256-KJe6d+0B2h/cpUA6vWGARJMvDar3UWS7FI8WfWe7/Ns="
     },
     "runtimeAssets": {
       "dotnet.wasm": {

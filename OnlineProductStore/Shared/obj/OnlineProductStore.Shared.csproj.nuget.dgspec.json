@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\UniversityLabs\\4course\\MAPZ\\OnlineProductStore\\OnlineProductStore\\Shared\\OnlineProductStore.Shared.csproj": {}
+    "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Shared\\OnlineProductStore.Shared.csproj": {}
   },
   "projects": {
-    "C:\\UniversityLabs\\4course\\MAPZ\\OnlineProductStore\\OnlineProductStore\\Shared\\OnlineProductStore.Shared.csproj": {
+    "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Shared\\OnlineProductStore.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\UniversityLabs\\4course\\MAPZ\\OnlineProductStore\\OnlineProductStore\\Shared\\OnlineProductStore.Shared.csproj",
+        "projectUniqueName": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Shared\\OnlineProductStore.Shared.csproj",
         "projectName": "OnlineProductStore.Shared",
-        "projectPath": "C:\\UniversityLabs\\4course\\MAPZ\\OnlineProductStore\\OnlineProductStore\\Shared\\OnlineProductStore.Shared.csproj",
-        "packagesPath": "C:\\Users\\olegn\\.nuget\\packages\\",
-        "outputPath": "C:\\UniversityLabs\\4course\\MAPZ\\OnlineProductStore\\OnlineProductStore\\Shared\\obj\\",
+        "projectPath": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Shared\\OnlineProductStore.Shared.csproj",
+        "packagesPath": "C:\\Users\\Nyashuka\\.nuget\\packages\\",
+        "outputPath": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\olegn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nyashuka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

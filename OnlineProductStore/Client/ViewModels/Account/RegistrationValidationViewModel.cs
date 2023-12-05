@@ -1,4 +1,5 @@
 ﻿﻿using FluentValidation;
+using OnlineProductStore.Shared;
 using System.Net.Http;
 using System.Text.RegularExpressions;
 
@@ -39,7 +40,7 @@ namespace OnlineProductStore.Client.ViewModels.Account
         {
             try
             {
-                string url = $"/api/User/unique-user-email?email={email}";
+                string url = APIEndpoints.EmailUniqueCheckEndpoind(email);
                 var response = await _httpClient.GetAsync(url);
                 response.EnsureSuccessStatusCode();
 

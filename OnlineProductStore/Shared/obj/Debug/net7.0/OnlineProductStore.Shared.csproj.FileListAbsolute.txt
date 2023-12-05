@@ -1,7 +1,6 @@
 E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Shared\bin\Debug\net7.0\OnlineProductStore.Shared.deps.json
 E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Shared\bin\Debug\net7.0\OnlineProductStore.Shared.dll
 E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Shared\bin\Debug\net7.0\OnlineProductStore.Shared.pdb
-E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Shared\obj\Debug\net7.0\OnlineProductStore.Shared.csproj.AssemblyReference.cache
 E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Shared\obj\Debug\net7.0\OnlineProductStore.Shared.GeneratedMSBuildEditorConfig.editorconfig
 E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Shared\obj\Debug\net7.0\OnlineProductStore.Shared.AssemblyInfoInputs.cache
 E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Shared\obj\Debug\net7.0\OnlineProductStore.Shared.AssemblyInfo.cs
@@ -22,3 +21,4 @@ C:\UniversityLabs\4course\MAPZ\OnlineProductStore\OnlineProductStore\Shared\obj\
 C:\UniversityLabs\4course\MAPZ\OnlineProductStore\OnlineProductStore\Shared\obj\Debug\net7.0\refint\OnlineProductStore.Shared.dll
 C:\UniversityLabs\4course\MAPZ\OnlineProductStore\OnlineProductStore\Shared\obj\Debug\net7.0\OnlineProductStore.Shared.pdb
 C:\UniversityLabs\4course\MAPZ\OnlineProductStore\OnlineProductStore\Shared\obj\Debug\net7.0\ref\OnlineProductStore.Shared.dll
+E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Shared\obj\Debug\net7.0\OnlineProductStore.Shared.sourcelink.json

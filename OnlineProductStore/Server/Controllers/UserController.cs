@@ -27,12 +27,14 @@ namespace OnlineProductStore.Server.Controllers
             ModelState.AddModelError("Email", result.Message);
             return BadRequest(ModelState);
         }
+
         [HttpGet("unique-user-email")]
         public IActionResult CheckUniqueUserEmail(string email)
         {
-            var result = _userService.CheckUserUniqueEmail(email);
+            var result = _userService.CheckIsUniqueEmail(email);
             return Ok(result);
         }
+
         [HttpPost("login")]
         public async Task<IActionResult> LoginAsync(LoginDTO payload)
         {

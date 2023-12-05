@@ -219,3 +219,4 @@ C:\UniversityLabs\4course\MAPZ\OnlineProductStore\OnlineProductStore\Server\obj\
 C:\UniversityLabs\4course\MAPZ\OnlineProductStore\OnlineProductStore\Server\obj\Debug\net7.0\OnlineProductStore.Server.pdb
 C:\UniversityLabs\4course\MAPZ\OnlineProductStore\OnlineProductStore\Server\obj\Debug\net7.0\OnlineProductStore.Server.genruntimeconfig.cache
 C:\UniversityLabs\4course\MAPZ\OnlineProductStore\OnlineProductStore\Server\obj\Debug\net7.0\ref\OnlineProductStore.Server.dll
+E:\Univer\4course\mapz\OnlineProductStore\OnlineProductStore\Server\obj\Debug\net7.0\OnlineProductStore.Server.sourcelink.json

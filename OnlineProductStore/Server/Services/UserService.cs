@@ -67,7 +67,7 @@ namespace OnlineProductStore.Server.Services
             return (true, "Success");
         }
 
-        public bool CheckUserUniqueEmail(string email)
+        public bool CheckIsUniqueEmail(string email)
         {
             var userAlreadyExist = _dbContext.Users.Any(_ => _.Email.ToLower() == email.ToLower());
             return !userAlreadyExist;

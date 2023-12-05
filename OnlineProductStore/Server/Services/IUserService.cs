@@ -6,7 +6,7 @@ namespace OnlineProductStore.Server.Services
     {
         Task<(bool IsUserRegistered, string Message)> RegisterNewUserAsync(UserRegistrationDTO userRegistration);
 
-        bool CheckUserUniqueEmail(string email);
+        bool CheckIsUniqueEmail(string email);
 
         Task<(bool IsLoginSuccess, JWTTokenResponseDTO TokeResponse)> LoginAsync(LoginDTO loginPayload);
     }
