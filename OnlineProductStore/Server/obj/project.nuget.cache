@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8qvps9SNSGMOL2HH0+xTerXckhHQb1bwJW6arGqn2ZMsGqBNGIOgxOY9lbckwvzZe7M9HCeMxm0w6xF4yfxQWA==",
+  "dgSpecHash": "OGU5zEZ3+wG5gMLUle8if7nGShDmu1syU+hbFfXHQaw8wmS1PSONZQK6oUL+k1zsHAvjkEuLYiUPkXb9ZGpfpw==",
   "success": true,
-  "projectFilePath": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Server\\OnlineProductStore.Server.csproj",
+  "projectFilePath": "C:\\Users\\Nyashuka\\Desktop\\OnlineProductStore\\OnlineProductStore\\Server\\OnlineProductStore.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.13\\microsoft.aspnetcore.authorization.7.0.13.nupkg.sha512",
     "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.13\\microsoft.aspnetcore.components.7.0.13.nupkg.sha512",
