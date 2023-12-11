@@ -3,9 +3,9 @@
 @using System.Text.Json;
 @using System.Text;
 @using System.Net;
-@inject IHttpClientFactory _httpClientFactory
 @using OnlineProductStore.Client.ViewModels.Account;
 
+@inject IHttpClientFactory _httpClientFactory
 @inject NavigationManager _navigationManager
 
 <div class="ma-6 d-flex justify-center">
@@ -56,13 +56,9 @@
 
 @code {
     private RegistrationViewModel registrationModel = new RegistrationViewModel();
-
     private RegistrationValidationViewModel validationModel;
-
-
-    MudForm form;
-
-    string APIErrorMessages;
+    private MudForm form;
+    private string APIErrorMessages;
 
     protected override Task OnInitializedAsync()
     {
@@ -97,7 +93,7 @@
             }
             else if (response.StatusCode == HttpStatusCode.OK)
             {
-                _navigationManager.NavigateTo("/registration-confirmation");
+                _navigationManager.NavigateTo("/login");
             }
             else
             {

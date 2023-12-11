@@ -26,8 +26,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Pages/AddProduct.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUHJvZHVjdC5yYXpvcg==
+[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Pages/Administrating/AccountsAdministrating.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpbmdcQWNjb3VudHNBZG1pbmlzdHJhdGluZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Pages/Administrating/AddProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpbmdcQWRkUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Pages/Administrating/AdminProducts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpbmdcQWRtaW5Qcm9kdWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Pages/Administrating/CreateCategoryAdminPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpbmdcQ3JlYXRlQ2F0ZWdvcnlBZG1pblBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Pages/Administrating/MainAdminPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpbmdcTWFpbkFkbWluUGFuZWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Pages/Authorization/LoginWindow.razor]
@@ -50,16 +66,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJhc2VcTWFpbkFwcEJhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Shared/Base/NavSideMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJhc2VcTmF2U2lkZU1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Shared/CheckOut.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENoZWNrT3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Shared/Header.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Shared/Layouts/AdminPanelLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExheW91dHNcQWRtaW5QYW5lbExheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Shared/Navigations/AdminPanelSideNavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdmlnYXRpb25zXEFkbWluUGFuZWxTaWRlTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Shared/Navigations/NavSideMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdmlnYXRpb25zXE5hdlNpZGVNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Shared/ProductsList.razor]
@@ -74,10 +98,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-jh2xugat1c
+[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Shared/Layouts/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExheW91dHNcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-rggdhubap4
 
-[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-q5n76nqyv9
+[E:/Univer/4course/mapz/OnlineProductStore/OnlineProductStore/Client/Shared/Navigations/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdmlnYXRpb25zXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-3l9buhm0i3

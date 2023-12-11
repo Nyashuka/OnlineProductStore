@@ -1,0 +1,72 @@
+﻿@using System.Security.Claims
+@inherits LayoutComponentBase
+
+@inject AuthenticationStateProvider _authStateProvider
+@inject ILocalStorageService _localStorageService;
+@inject NavigationManager _navigationManager;
+
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <MudAppBar Elevation="1">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
+        <MudText Typo="Typo.h5" Class="ml-3">Online Product Store</MudText>
+        <MudSpacer />
+        <CascadingAuthenticationState>
+            <AuthorizeView>
+                <NotAuthorized>
+                    <MudLink Color="Color.Inherit" Underline="Underline.None" Class="mr-2" Href="/login">Login</MudLink>
+                    <MudLink Color="Color.Inherit" Underline="Underline.None" Href="/registration">Registration</MudLink>
+                </NotAuthorized>
+                <Authorized>
+                    <MudText Color="Color.Inherit">@UserDisplyaName(context.User.Claims.ToList())</MudText>
+                    <MudButton Color="Color.Inherit" OnClick="@NavigateToAdminPanel">Admin panel</MudButton>
+                    <MudButton Color="Color.Inherit" OnClick="@Unlogin">Logout</MudButton>
+                    <MudIconButton Icon="@Icons.Material.Filled.ShoppingCart" Color="Color.Inherit" Edge="Edge.End" />
+                </Authorized>
+            </AuthorizeView>
+        </CascadingAuthenticationState>
+    </MudAppBar>
+    <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
+        <NavSideMenu />
+    </MudDrawer>
+    <MudMainContent>
+        @Body
+    </MudMainContent>
+</MudLayout>
+
+@code {
+
+    bool _drawerOpen = true;
+
+    private string UserDisplyaName(List<Claim> claims)
+    {
+        var firstName = claims.Where(_ => _.Type == "FirstName").Select(_ => _.Value).FirstOrDefault();
+        var lastName = claims.Where(_ => _.Type == "LastName").Select(_ => _.Value).FirstOrDefault();
+        if (!string.IsNullOrEmpty(firstName) || !string.IsNullOrEmpty(lastName))
+        {
+            return $"{firstName}  {lastName}";
+        }
+        var email = claims.Where(_ => _.Type == "Email").Select(_ => _.Value).FirstOrDefault();
+        return email;
+    }
+
+
+    private async Task Unlogin()
+    {
+        await ((MainAuthenticationProvider)_authStateProvider).RemoveAuthorization();
+        _navigationManager.NavigateTo("/", replace: true);
+    }
+
+    private void NavigateToAdminPanel()
+    {
+        _navigationManager.NavigateTo("/admin");
+    }
+
+    void DrawerToggle()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+}

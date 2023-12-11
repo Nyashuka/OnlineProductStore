@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OnlineProductStore.Server.DTO;
-using OnlineProductStore.Server.Services;
+using OnlineProductStore.Server.Services.Users;
 
 namespace OnlineProductStore.Server.Controllers
 {
@@ -10,6 +10,7 @@ namespace OnlineProductStore.Server.Controllers
     public class UserController : Controller
     {
         private readonly IUserService _userService;
+
         public UserController(IUserService userService)
         {
             _userService = userService;
@@ -33,6 +34,12 @@ namespace OnlineProductStore.Server.Controllers
         {
             var result = _userService.CheckIsUniqueEmail(email);
             return Ok(result);
+        }
+
+        [HttpGet("get-all")]
+        public IActionResult GetAllUsers()
+        {        
+            return Ok(_userService.GetAllUsers());
         }
 
         [HttpPost("login")]

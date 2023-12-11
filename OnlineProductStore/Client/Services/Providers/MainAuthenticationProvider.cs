@@ -1,21 +1,28 @@
-﻿﻿using Blazored.LocalStorage;
+﻿using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Components.Authorization;
 using System.Security.Claims;
 using System.Text.Json;
 
-namespace OnlineProductStore.Client.Shared.Providers
+namespace OnlineProductStore.Client.Services.Providers
 {
-    public class AuthenticationProvider : AuthenticationStateProvider
+    public class LocalStorageKeys
+    {
+        public const string JwtAuthorizationToken = "jwt-access-token";
+    }
+
+    public class MainAuthenticationProvider : AuthenticationStateProvider
     {
         private readonly ILocalStorageService _localStorageService;
-        public AuthenticationProvider(ILocalStorageService localStorageService)
+
+
+        public MainAuthenticationProvider(ILocalStorageService localStorageService)
         {
             _localStorageService = localStorageService;
         }
 
         public override async Task<AuthenticationState> GetAuthenticationStateAsync()
         {
-            var jwtToken = await _localStorageService.GetItemAsync<string>("jwt-access-token");
+            var jwtToken = await _localStorageService.GetItemAsync<string>(LocalStorageKeys.JwtAuthorizationToken);
             if (string.IsNullOrEmpty(jwtToken))
             {
                 return new AuthenticationState(
@@ -24,6 +31,12 @@ namespace OnlineProductStore.Client.Shared.Providers
 
             return new AuthenticationState(new ClaimsPrincipal(
                 new ClaimsIdentity(ParseClaimsFromJwt(jwtToken), "JwtAuth")));
+        }
+
+        public async Task RemoveAuthorization()
+        {
+            await _localStorageService.RemoveItemAsync(LocalStorageKeys.JwtAuthorizationToken);
+            NotifyAuthenticationStateChanged();
         }
 
         private static IEnumerable<Claim> ParseClaimsFromJwt(string jwt)
@@ -44,7 +57,8 @@ namespace OnlineProductStore.Client.Shared.Providers
             return Convert.FromBase64String(base64);
         }
 
-        public void NotifyAuthState()
+
+        public void NotifyAuthenticationStateChanged()
         {
             NotifyAuthenticationStateChanged(GetAuthenticationStateAsync());
         }

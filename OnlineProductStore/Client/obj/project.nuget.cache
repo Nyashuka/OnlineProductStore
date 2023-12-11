@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JkzXZmZYiQM1IAmn1/xQPX/5Jiqq5KmWPcwxkbw2SvYrwpf0EHe4pM8r1aVjMnEEHjUrkbuv+7HFkUnnw4BjgA==",
+  "dgSpecHash": "qkRW0SCZ5abOToh/I0KcMQhgW4+PV961PiqfPOe25t4RZrPOr1sHuyRxCOC6ZjDGp2KPqjYaX03vOu5AZOk5hw==",
   "success": true,
   "projectFilePath": "E:\\Univer\\4course\\mapz\\OnlineProductStore\\OnlineProductStore\\Client\\OnlineProductStore.Client.csproj",
   "expectedPackageFiles": [
@@ -40,8 +40,7 @@
     "C:\\Users\\Nyashuka\\.nuget\\packages\\mudblazor\\6.11.0\\mudblazor.6.11.0.nupkg.sha512",
     "C:\\Users\\Nyashuka\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\Nyashuka\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\Nyashuka\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\Nyashuka\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.14\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.14.nupkg.sha512"
+    "C:\\Users\\Nyashuka\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

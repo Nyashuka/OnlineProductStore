@@ -3,7 +3,6 @@
 @using System.Text.Json;
 @using System.Text;
 @using System.Net;
-@using OnlineProductStore.Client.Shared.Providers;
 @using OnlineProductStore.Client.ViewModels.Account;
 
 @inject IHttpClientFactory _httpClientFactory;
@@ -83,9 +82,13 @@
             {
                 //_navigationManager.NavigateTo("/registration-confirmation");
                 var tokenResponse = await response.Content.ReadFromJsonAsync<JwtTokenResponseViewModel>();
+
+                if (tokenResponse == null)
+                    throw new Exception("JWT Token response is empty");
+
                 await _localStorageService.SetItemAsync<string>("jwt-access-token", tokenResponse.AccessToken);
-                (_authStateProvider as AuthenticationProvider).NotifyAuthState();
-                _navigationManager.NavigateTo("/fetchdata");
+                (_authStateProvider as MainAuthenticationProvider)?.NotifyAuthenticationStateChanged();
+                _navigationManager.NavigateTo("/");
             }
             else
             {

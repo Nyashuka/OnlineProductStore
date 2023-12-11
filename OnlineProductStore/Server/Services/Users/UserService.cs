@@ -9,13 +9,15 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
+using Microsoft.AspNetCore.Mvc;
 
-namespace OnlineProductStore.Server.Services
+namespace OnlineProductStore.Server.Services.Users
 {
     public class UserService : IUserService
     {
         private readonly DataContext _dbContext;
         private readonly TokenSettings _tokenSettings;
+
         public UserService(DataContext worldDbContext,
             IOptions<TokenSettings> tokenSettings)
         {
@@ -51,12 +53,13 @@ namespace OnlineProductStore.Server.Services
 
             return Convert.ToBase64String(passwordHash);
         }
+
         public async Task<(bool IsUserRegistered, string Message)> RegisterNewUserAsync(UserRegistrationDTO userRegistration)
         {
             var isUserExist = _dbContext.Users.Any(_ => _.Email.ToLower() == userRegistration.Email.ToLower());
             if (isUserExist)
             {
-                return (false, "Email Address  Already Registred");
+                return (false, "Email Address is already registered");
             }
 
             var newUser = FromUserRegistrationModelToUserModel(userRegistration);
@@ -136,6 +139,11 @@ namespace OnlineProductStore.Server.Services
                 AccessToken = jwtAccessToken,
             };
             return (true, result);
+        }
+
+        public List<User> GetAllUsers()
+        {
+            return _dbContext.Users.ToList();
         }
     }
 }

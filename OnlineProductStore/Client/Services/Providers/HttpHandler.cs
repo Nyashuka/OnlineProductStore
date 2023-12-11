@@ -1,6 +1,6 @@
-﻿﻿using Blazored.LocalStorage;
+﻿using Blazored.LocalStorage;
 
-namespace OnlineProductStore.Client.Shared.Providers
+namespace OnlineProductStore.Client.Services.Providers
 {
     public class HttpHandler : DelegatingHandler
     {

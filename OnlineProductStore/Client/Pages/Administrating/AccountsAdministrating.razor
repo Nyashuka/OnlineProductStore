@@ -1,0 +1,82 @@
+﻿@page "/admin/accounts"
+
+@inject HttpClient _httpClient;
+
+@layout AdminPanelLayout
+
+<MudDataGrid T="User" MultiSelection="true" Items="@Users" SortMode="SortMode.Multiple" Filterable="true" QuickFilter="@_quickFilter"
+             Hideable="true" RowClick="@RowClicked" RowContextMenuClick="RowRightClicked" SelectedItemsChanged="@SelectedItemsChanged">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">Users</MudText>
+        <MudSpacer />
+        <MudTextField @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"
+                      AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <Columns>
+        <SelectColumn T="User" />
+        <PropertyColumn Property="x => x.FirstName" SortBy="@_sortBy" />
+        <PropertyColumn Property="x => x.LastName" SortBy="@_sortBy" />
+        <PropertyColumn Property="x => x.Email" />
+    </Columns>
+    <PagerContent>
+        <MudDataGridPager T="User" />
+    </PagerContent>
+</MudDataGrid>
+
+<div class="d-flex flex-wrap mt-4">
+    <MudSwitch @bind-Checked="@_sortNameByLength" Color="Color.Primary">Sort Name Column By Length</MudSwitch>
+</div>
+
+@code {
+    private List<User> Users = new List<User>();
+    private string _searchString;
+    private bool _sortNameByLength;
+    private List<string> _events = new();
+
+    // custom sort by name length
+    private Func<User, object> _sortBy => x =>
+    {
+        if (_sortNameByLength)
+            return x.FirstName.Length;
+        else
+            return x.FirstName;
+    };
+
+
+
+    // quick filter - filter globally across multiple columns with the same input
+    private Func<User, bool> _quickFilter => x =>
+    {
+        if (string.IsNullOrWhiteSpace(_searchString))
+            return true;
+
+        if (x.FirstName.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+
+        // if ($"{x.Number} {x.Position} {x.Molar}".Contains(_searchString))
+        //     return true;
+
+        return false;
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        Users = await _httpClient.GetFromJsonAsync<List<User>>("api/user/get-all");
+    }
+
+    // events
+    void RowClicked(DataGridRowClickEventArgs<User> args)
+    {
+        _events.Insert(0, $"Event = RowClick, Index = {args.RowIndex}, Data = {System.Text.Json.JsonSerializer.Serialize(args.Item)}");
+    }
+
+    void RowRightClicked(DataGridRowClickEventArgs<User> args)
+    {
+        _events.Insert(0, $"Event = RowRightClick, Index = {args.RowIndex}, Data = {System.Text.Json.JsonSerializer.Serialize(args.Item)}");
+    }
+
+    void SelectedItemsChanged(HashSet<User> items)
+    {
+        _events.Insert(0, $"Event = SelectedItemsChanged, Data = {System.Text.Json.JsonSerializer.Serialize(items)}");
+    }
+}

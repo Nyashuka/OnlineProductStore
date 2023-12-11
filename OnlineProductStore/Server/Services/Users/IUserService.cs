@@ -1,6 +1,8 @@
-﻿using OnlineProductStore.Server.DTO;
+﻿using Microsoft.AspNetCore.Mvc;
+using OnlineProductStore.Server.DTO;
+using OnlineProductStore.Shared.Models;
 
-namespace OnlineProductStore.Server.Services
+namespace OnlineProductStore.Server.Services.Users
 {
     public interface IUserService
     {
@@ -9,5 +11,6 @@ namespace OnlineProductStore.Server.Services
         bool CheckIsUniqueEmail(string email);
 
         Task<(bool IsLoginSuccess, JWTTokenResponseDTO TokeResponse)> LoginAsync(LoginDTO loginPayload);
+        List<User> GetAllUsers();
     }
 }

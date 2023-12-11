@@ -2,7 +2,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using OnlineProductStore.Server.Data;
-using OnlineProductStore.Server.Services;
+using OnlineProductStore.Server.Services.Categories;
+using OnlineProductStore.Server.Services.Products;
+using OnlineProductStore.Server.Services.Users;
 using OnlineProductStore.Shared.Settings;
 using System.Text;
 
@@ -13,10 +15,6 @@ namespace OnlineProductStore
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
-            // Add services to the container.
-
-            // Add services to the container.
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -30,7 +28,7 @@ namespace OnlineProductStore
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
 
-            builder.Services.AddScoped<IUserService, UserService>();
+            RegisterServices(builder);
 
             builder.Services.AddCors(options =>
             {
@@ -97,9 +95,11 @@ namespace OnlineProductStore
             app.Run();
         }
 
-        private static void RegisterAuthServices(WebApplicationBuilder builder)
+        private static void RegisterServices(WebApplicationBuilder builder)
         {
-           
+            builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<IProductsService, ProductsService>();
+            builder.Services.AddScoped<ICategoriesService, CategoriesService>();
         }
     }
 }
