@@ -1,0 +1,65 @@
+﻿@page "/cart"
+
+@inject ICartService _cartService
+
+<PageTitle>Shopping cart</PageTitle>
+
+<h3>Shopping cart</h3>
+
+@if (_products == null || _products.Count == 0)
+{
+    <span>@_message</span>
+}
+else
+{
+    <div>
+        @foreach (var product in _products)
+        {
+            <div calss="container">
+                <div class="image-wrapper">
+                    <img class="image" src="@product.ImageUrl" />
+                </div>
+                <div class="name">
+                    <h5><a href="/product/@product.ProductId">@product.Title</a></h5>
+                    <button class="btn-delete" @onclick="@(() => RemoveProducFromCart(product.ProductId))">Delete</button>
+                </div>
+                <div class="cart-product-price">$@product.Price</div>
+            </div>
+            <hr />
+        }
+
+        <div class="cart-product-price">
+            Total (@_products.Count): $@_products.Sum(product => product.Price);
+        </div>
+    </div>
+}
+
+@code {
+    private List<CartProductDTO> _products = null;
+    private string _message = "Loading cart...";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await UpdateCart();
+    }
+
+    private async Task RemoveProducFromCart(int productId)
+    {
+        await _cartService.RemoveProducFromCart(productId);
+
+        await UpdateCart();
+    }
+
+    private async Task UpdateCart()
+    {
+        if ((await _cartService.GetAllCartItemsAsync()).Count == 0)
+        {
+            _message = "Cart is empty :(";
+            _products = new List<CartProductDTO>();
+        }
+        else
+        {
+            _products = await _cartService.GetCartProductsAsync();
+        }
+    }
+}
