@@ -81,7 +81,19 @@ namespace OnlineProductStore.Client.Services.CartService
 
         public async Task UpdateQuantity(CartProductDTO cartProductDTO)
         {
-            
+            var cart = await GetAllCartItemsAsync();
+
+            if (cart.Count == 0)
+                return;
+
+            var sameItem = cart.Find(i => i.ProductId == cartProductDTO.ProductId);
+
+            if (sameItem != null)
+            {
+                sameItem.Quantity = cartProductDTO.Quantity;
+                await _localStorage.SetItemAsync("cart", cart);
+                ItemsChanged?.Invoke();
+            }  
         }
     }
 }
